@@ -1,0 +1,5 @@
+# AddType application/x-httpd-ea-php53 .php
+# for security - do not display hidden files or editor backups RedirectMatch 404 /\\.
+<Files *~>
+deny from all
+</Files>
